@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Detector de Mejor Amig@s - Mai 💜</title>
+
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <div class="decoracion decoracion1">💜</div>
+    <div class="decoracion decoracion2">✨</div>
+    <div class="decoracion decoracion3">🌷</div>
+    <div class="decoracion decoracion4">⭐</div>
+
+    <main class="contenedor">
+
+        <header class="encabezado">
+            <span class="etiqueta">UNA PRUEBA ESPECIAL PARA MAI</span>
+
+            <h1>DETECTOR DE<br>MEJOR AMIG@S.. !</h1>
+
+            <p class="subtitulo">
+                ¿Realmente conoces todas mis cosas favoritas?
+            </p>
+
+            <div class="corazon">💜</div>
+        </header>
+
+        <section class="bienvenida" id="bienvenida">
+
+            <h2>¡Hola, Mai! 🌸</h2>
+
+            <p>
+                He preparado un pequeño desafío para ti.
+                Tendrás que demostrar cuánto conoces
+                sobre mí y nuestros momentos.
+            </p>
+
+            <p>
+                Responde las 9 preguntas y descubre
+                lo que hay al final. ¡Mucha suerte!
+            </p>
+
+            <button id="comenzar" class="boton">
+                ¡COMENZAR! ✨
+            </button>
+
+        </section>
+
+        <section id="zonaQuiz" class="zona-quiz oculto">
+
+            <div class="progreso">
+                <span id="contador">Pregunta 1 de 9</span>
+                <span id="porcentaje">0%</span>
+            </div>
+
+            <div class="barra">
+                <div id="barraProgreso"></div>
+            </div>
+
+            <div id="preguntas"></div>
+
+            <button id="siguiente" class="boton" disabled>
+                SIGUIENTE 💜
+            </button>
+
+        </section>
+
+        <section id="resultado" class="resultado oculto">
+
+            <div id="mensajeResultado"></div>
+
+            <button id="reintentar" class="boton oculto">
+                VOLVER A INTENTAR 💜
+            </button>
+
+        </section>
+
+        <footer>
+            Hecho con cariño para Mai 💜
+            <br>
+            ✨ Una amistad llena de recuerdos ✨
+        </footer>
+
+    </main>
+
+    <script src="funciones.js"></script>
+
+</body>
+</html>
